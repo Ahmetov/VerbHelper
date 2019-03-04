@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">VerbHelper</string>
+    <string name="start_button">Начать</string>
+    <string name="words_button">Слова</string>
+    <string name="words_redactor_text">Words redactor</string>
+</resources>
