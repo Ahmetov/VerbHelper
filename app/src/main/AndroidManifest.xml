@@ -25,6 +25,9 @@
         <activity android:name=".quizClass" android:noHistory="true">
 
         </activity>
+        <activity android:name=".AboutMeActivity" android:noHistory="true">
+
+        </activity>
     </application>
 
 </manifest>

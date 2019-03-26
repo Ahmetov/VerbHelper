@@ -23,4 +23,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this,quizClass.class);
         startActivity(intent);
     }
+
+    public void aboutMeOnClick(View view){
+        Intent intent = new Intent(MainActivity.this,AboutMeActivity.class);
+        startActivity(intent);
+    }
 }
