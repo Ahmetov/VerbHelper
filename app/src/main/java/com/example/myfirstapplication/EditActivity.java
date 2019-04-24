@@ -1,8 +1,11 @@
 package com.example.myfirstapplication;
 
 import android.app.Activity;
+import android.content.res.Resources;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ListView;
@@ -37,6 +40,8 @@ public class EditActivity extends Activity {
         productList.setAdapter(adapter);
         //db.close();
     }
+
+
 
 //
 //    public void showOnClick(View view){
